@@ -3,7 +3,9 @@
     testhost : "http://192.168.0.2:8010"
 */
 
-export const API_SERVER_HOST = process.env.REACT_APP_API_SERVER_HOST || "http://localhost:8010"; 
+// export const API_SERVER_HOST = process.env.REACT_APP_API_SERVER_HOST || "http://localhost:8010"; 
+
+export const API_SERVER_HOST = process.env.REACT_APP_API_URL || "http://localhost:8010"; 
 
 export const REDIRECT_HOST = process.env.REACT_APP_REDIRECT_HOST || "http://localhost:3010";
 
